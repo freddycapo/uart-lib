@@ -1,19 +1,19 @@
 {
   "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
-  "name": "LibraryTemplate",
+  "name": "uart-lib",
   "version": "1.0.0",
-  "description": "Templates for libraries compatible with the PlatformIO ecosystem",
+  "description": "A PlatformIO compatible library to handle UART communication",
   "keywords": [
-    "template"
+    "uart"
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/freddycapo/uart-lib"
   },
   "authors": [
     {
-      "name": "Antonio Gelain",
-      "email": "antonio.gelain2@gmail.com",
+      "name": "Federico Caposano",
+      "email": "federicocaposano@gmail.com",
       "maintainer": true
     }
   ],
