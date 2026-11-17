@@ -15,8 +15,8 @@ typedef struct {
 static_assert(sizeof(ImuMsg) == 16, "ImuMsg wire size changed");
 
 typedef struct {
-    uint8_t servo_id;   // PCA9685 channel of the servo: 14 = tilt, 15 = pan
     int16_t angle_cdeg; // hundredths of degree, little endian (e.g. -1250 = -12.50 deg)
+    uint8_t servo_id;   // PCA9685 channel of the servo: 14 = tilt, 15 = pan
 } ServoMsg;
 static_assert(sizeof(ServoMsg) == 3, "ServoMsg wire size changed");
 
